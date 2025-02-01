@@ -6,6 +6,7 @@
 @font-face {
     font-family:'outfit' ;
     src: url(/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 400 700;
 }
 body{
     display: flex;
@@ -13,28 +14,34 @@ body{
     justify-content: center;
     align-items: center;
     width: 1440px;
-    min-width: 1440px;
+
     background-color: hsl(30, 54%, 90%);
 }
 .todo{
     width: 735px;
-    gap: 0px;
+    gap: 10px;
     background-color: hsl(0, 0%, 100%);
     padding: 40px;
     border-radius: 20px;
 }
+ol {
+    margin: 0px;
+    padding-left: 21px;
+}
 ul{
     margin: 0px;
-    padding-left: 17px;
-
+    padding-left: 25px;
 }
 li{
     font-family: outfit;
     font-size: 16px;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    color: hsl(30, 10%, 34%);
+    padding-left: 15px;
 }
 #cuad_trasp{
-    background-color: antiquewhite;
+    background-color: hsl(330, 100%, 98%);
     padding: 25px;
     border-radius: 20px;
 }
@@ -46,20 +53,43 @@ table{
     font-size: 16px;
 }
 td{
-    padding-left: 30px;
+    padding:8px 0 8px 30px;
+}
+td.derecho{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+tr{
+   border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+tr#ult{
+    border-bottom: 1px  ;
 }
 h1 {
     font-family: young-serif;
     font-weight: 400;
+    color: hsl(24, 5%, 18%);
 }
 h2{
     font-family: young-serif;
     font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin: 20px 0 15px;
+
 }
 p{
     font-family: outfit;
     font-size: 16px;
+    line-height: 1.5;
+    color: hsl(30, 10%, 34%);
+    margin: 0 0 25px;
 }
 h3{
+    font-family: outfit;
     margin-top: 0;
+    color: hsl(332, 51%, 32%);
+}
+hr{
+    border: 0.1px solid hsl(30, 18%, 87%);
+    margin-top: 30px;
 }
