@@ -1,23 +1,65 @@
+@font-face {
+    font-family: 'young-serif';
+    src: url(/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family:'outfit' ;
+    src: url(/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
 body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 1440px;
+    min-width: 1440px;
     background-color: hsl(30, 54%, 90%);
 }
 .todo{
     width: 735px;
-    gap: 25px;
+    gap: 0px;
     background-color: hsl(0, 0%, 100%);
     padding: 40px;
     border-radius: 20px;
 }
 ul{
-padding-left: 0px;
+    margin: 0px;
+    padding-left: 17px;
+
+}
+li{
+    font-family: outfit;
+    font-size: 16px;
+    margin-bottom: 6px;
 }
 #cuad_trasp{
-    text-align:left;
-    margin:0 auto;
-    word-wrap: break-word;
+    background-color: antiquewhite;
+    padding: 25px;
+    border-radius: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+    font-family: outfit;
+    font-size: 16px;
+}
+td{
+    padding-left: 30px;
+}
+h1 {
+    font-family: young-serif;
+    font-weight: 400;
+}
+h2{
+    font-family: young-serif;
+    font-weight: 400;
+}
+p{
+    font-family: outfit;
+    font-size: 16px;
+}
+h3{
+    margin-top: 0;
 }
