@@ -99,22 +99,25 @@ p{
     color: hsl(30, 10%, 34%);
     margin: 0 0 25px;
 }
-h3{
-    font-family: outfit;
-    margin-top: 0;
-    color: hsl(332, 51%, 32%);
-}
+
 hr{
     border: 1px solid hsl(30, 18%, 87%);
     margin-top: 30px;
     width: 100%;
 }
-
+#subT{
+    color: hsl(332, 51%, 32%);
+    font-family: outfit;
+    font-size: 18.72px;
+    font-weight: 700;
+    height: 24px;
+    margin-block-end :18.72px;
+}
 
 @media (max-width: 735px) {
     .todo{
         border-radius: 0;
-        padding: 0 20px 5px 20px;
+        padding: 0 20px 20px 20px;
     }
     img{
         border-radius: 0;
