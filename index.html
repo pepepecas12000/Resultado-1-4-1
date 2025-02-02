@@ -14,17 +14,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap" rel="stylesheet">
 
-
-  <link rel="stylesheet" href="styles.css">
-
-
   <title>Resultado 1.4.1</title>
 
 
 </head>
 <body>
-<div role="main" class="todo">
-<div role="img" class="imagen" aria-label="Omelette Picture"> <img src="assets/images/image-omelette.jpeg" alt="Omelette picture "></div>
+<div role="main" id="todo">
+<div role="img" id="imagen" aria-label="Omelette Picture"> <img src="assets/images/image-omelette.jpeg" alt="Omelette picture "></div>
 
 
   <h1>Simple Omelette Recipe</h1>
@@ -33,18 +29,17 @@
     to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
 
 
-  <div role="list" id="cuad_trasp">
-    <p id="subT">Preparation time</p>
+  <div id="cuad_trasp">
+    <p id="subT">Select a preparation time:</p>
+    <ul role="listbox" aria-labelledby="list-label">
+      <li role="option"><b>Total:</b> Approximately 10 minutes</li>
+      <li role="option"><b>Preparation:</b> 5 minutes</li>
+      <li role="option"><b>Cooking:</b> 5 minutes</li>
+    </ul>
+  </div>
 
-    <ul role="listbox">
-      <li role="listitem"><b>Total:</b> Approximately 10 minutes</li>
-      <li role="listitem"><b>Preparation:</b> 5 minutes</li>
-      <li role="listitem"><b>Cooking:</b> 5 minutes</li>
-    </ul></div>
 
   <h2>Ingredients</h2>
-
-
   <ul>
     <li>2-3 large eggs</li>
     <li> Salt, to taste</li>
@@ -55,8 +50,6 @@
   <hr/>
 
   <h2>Instructions</h2>
-  <div id="listado_tres">
-
 
     <ol>
       <li> <b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
@@ -69,7 +62,7 @@
       <li><b> Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it over the
         fillings. Let it cook for another minute, then slide it onto a plate.</li>
       <li><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed. </li>
-    </ol></div>
+    </ol>
   <hr/>
   <h2>Nutrition</h2>
 
