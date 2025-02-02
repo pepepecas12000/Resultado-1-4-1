@@ -13,24 +13,38 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
+
 
     background-color: hsl(30, 54%, 90%);
 }
 .todo{
-    width: 735px;
+    width: 100%;
+    max-width: 735px;
     gap: 10px;
     background-color: hsl(0, 0%, 100%);
     padding: 40px;
     border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(2px, 1440px));
+    text-wrap: wrap;
+}
+img{
+    max-width:fit-content;
+    width: 100%;
+    border-radius: 15px;
 }
 ol {
     margin: 0px;
     padding-left: 21px;
+    text-wrap: wrap;
 }
 ul{
     margin: 0px;
     padding-left: 25px;
+    text-wrap: wrap;
 }
 li{
     font-family: outfit;
@@ -44,6 +58,9 @@ li{
     background-color: hsl(330, 100%, 98%);
     padding: 25px;
     border-radius: 20px;
+    width: 100%;
+    max-width:fit-content;
+
 }
 table{
     border-collapse: collapse;
@@ -90,6 +107,14 @@ h3{
     color: hsl(332, 51%, 32%);
 }
 hr{
-    border: 0.1px solid hsl(30, 18%, 87%);
+    border: 1px solid hsl(30, 18%, 87%);
     margin-top: 30px;
+    width: 100%;
+}
+
+@media (max-width: 735px) {
+    .todo{
+        padding: 0 20px 0 20px;
+
+    }
 }
