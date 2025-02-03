@@ -11,7 +11,7 @@ body{
     width: 100%;
     max-width: 735px;
     gap: 10px;
-    margin: 65px 0px 65px;
+    margin: 65px 0 65px;
     background-color: hsl(0, 0%, 100%);
     padding: 40px;
     border-radius: 20px;
@@ -27,11 +27,11 @@ width: 100%;
     border-radius: 15px;
 }
 ol {
-    margin: 0px;
+    margin: 0;
     padding-left: 21px;
 }
 ul{
-    margin: 0px;
+    margin: 0;
     padding-left: 25px;
 }
 li{
